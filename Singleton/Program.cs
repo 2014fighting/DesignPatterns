@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// See https://www.runoob.com/design-pattern/singleton-pattern.html for more information
 
 
 using Singleton;
