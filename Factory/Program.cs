@@ -7,7 +7,7 @@ Console.WriteLine("Hello, 工厂模式!");
 
 
 //简单工厂模式：简单实用，但违反开放封闭；
-var car1 = AbstractCar.Create(ProductEnum.ConcreateProductA);
+var car1 = SimpleFactory.Create(ProductEnum.ConcreateProductA);
 if (car1 != null)
 {
     car1.GetInfo();
