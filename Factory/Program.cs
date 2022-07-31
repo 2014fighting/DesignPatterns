@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Factory.AbstractFactory;
 using Factory.FactoryMethod;
+using Factory.ReflectFactory;
 using Factory.SimpleFactory;
 
 Console.WriteLine("Hello, 工厂模式!");
@@ -31,3 +32,11 @@ var bydFactory = new BYDFactory();
 bydFactory.CreateCar().GetInfo();
 bydFactory.CreateBus().GetInfo();
 bydFactory.CreateSuv().GetInfo();
+
+
+//反射工厂
+var car2 = ReflectFactory.Create("Factory.ConcreateCarB");
+if (car2 != null)
+{
+    car2.GetInfo();
+}
