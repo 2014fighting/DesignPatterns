@@ -16,7 +16,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Describe", "Describe", "{10
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{3E8564A0-19B5-4082-9F69-252CEA11707D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{3E8564A0-19B5-4082-9F69-252CEA11707D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{60DCD28C-7FBC-4FD9-A955-564DB89D2DBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{3E8564A0-19B5-4082-9F69-252CEA11707D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E8564A0-19B5-4082-9F69-252CEA11707D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E8564A0-19B5-4082-9F69-252CEA11707D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DCD28C-7FBC-4FD9-A955-564DB89D2DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DCD28C-7FBC-4FD9-A955-564DB89D2DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DCD28C-7FBC-4FD9-A955-564DB89D2DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DCD28C-7FBC-4FD9-A955-564DB89D2DBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

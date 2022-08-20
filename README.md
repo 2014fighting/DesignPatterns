@@ -2,6 +2,8 @@
 面向对象设计模式(c#实现)
 https://www.runoob.com/design-pattern/design-pattern-intro.html
 
+https://blog.csdn.net/ShuSheng0007/article/details/115980889
+
 1.创建型模式：工厂方法模式、抽象工厂模式、单例模式、建造者模式、原型模式  
  
            用于描述如何将对象和类组装成较大的结构，并同时保持结构的灵活和高效。
