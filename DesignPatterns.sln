@@ -24,11 +24,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Comp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyweight.csproj", "{191860ED-DA13-4EB8-BC8A-D0F8CC4BBE63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{9DDAE077-C6BD-4CFC-B380-E69C992BB444}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{9DDAE077-C6BD-4CFC-B380-E69C992BB444}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{CE770A8B-C6FB-4E4B-AD20-BFD23FEA9B89}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{88B4E4F9-1E8B-4B15-A541-BB495860EE63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{664526B3-A0CA-449D-B42D-E0AF5C00B421}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -80,6 +82,10 @@ Global
 		{88B4E4F9-1E8B-4B15-A541-BB495860EE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88B4E4F9-1E8B-4B15-A541-BB495860EE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88B4E4F9-1E8B-4B15-A541-BB495860EE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664526B3-A0CA-449D-B42D-E0AF5C00B421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664526B3-A0CA-449D-B42D-E0AF5C00B421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664526B3-A0CA-449D-B42D-E0AF5C00B421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664526B3-A0CA-449D-B42D-E0AF5C00B421}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
