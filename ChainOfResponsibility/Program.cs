@@ -8,7 +8,7 @@ Console.WriteLine("Hello, World!");
 //缺点每个请求都需要从链头到链尾，比较长是性能下降
 
 //请假三天
-new ChainOfRespPaattern().Leave(3);
+new ChainOfRespPattern().Leave(3);
 
 //请假13天
-new ChainOfRespPaattern().Leave(13);
+new ChainOfRespPattern().Leave(13);

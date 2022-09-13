@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChainOfResponsibility
 {
-    public class ChainOfRespPaattern
+    public class ChainOfRespPattern
     {
         /// <summary>
         /// 请假方法
