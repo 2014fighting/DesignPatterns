@@ -11,4 +11,5 @@ var cInvoke=new Commond.Invoke();
 
 
 var receiver = new Receiver();
-cInvoke.SetCommand();
+cInvoke.SetCommand(new ConcreteCommand1(receiver));
+cInvoke.SetCommand(new ConcreteCommand2(receiver));
