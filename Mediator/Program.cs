@@ -7,7 +7,7 @@ Console.WriteLine("Hello, World!");
 //优点：松耦合，代码易维护，符合迪米特（最小知道）原则
 //缺点：中介类容易在后期不断庞大
 
-//应用：如房屋中介  ，珍爱网对象介绍
+//应用：如房屋中介  ，珍爱网对象介绍  ，或  .net MediatR 等
 
 var houseAgent = new HouseAgent();
 houseAgent.ContactOwner(new House() { IdNumber = 1111, Condition = "300平大平层" }) ;
